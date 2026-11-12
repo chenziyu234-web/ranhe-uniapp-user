@@ -1,0 +1,340 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#01b3e1",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/code/code",
+			"style": {
+				"navigationBarTitleText": "扫码开门"
+			}
+		},
+		{
+			"path": "pages/code/nextStep",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/singPage/singPage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/code/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/index/keFU",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/slotPage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/deliverList/deliverList",
+			"style": {
+				"navigationBarTitleText": "入账明细"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pagesMy",
+			"pages": [{
+					"path": "myOrder/myOrder",
+					"style": {
+						"navigationBarTitleText": "我的订单",
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "myOrder/orderDetail",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "setUp/setUp",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+
+				}, {
+					"path": "accound/accound",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "withdrawal/withdrawal",
+					"style": {
+						"navigationBarTitleText": "提现",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#F6F7FB"
+					}
+
+				}, {
+					"path": "withdrawal/wSucc/wSucc",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "withdrawal/withdrawalAgent",
+					"style": {
+						"navigationBarTitleText": "代理商提现",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#F6F7FB"
+					}
+				}, {
+					"path": "setUser/setUser",
+					"style": {
+						"navigationBarTitleText": "完善用户信息"
+					}
+				}, {
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": "问题反馈",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "address/address",
+					"style": {
+						"navigationBarTitleText": "我的地址",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "address/addressEdit",
+					"style": {
+						"navigationBarTitleText": "新增地址",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "myTuiJian/myTuiJian",
+					"style": {
+						"navigationBarTitleText": "我的推荐"
+					}
+				},
+				{
+					"path": "postAgent/index",
+					"style": {
+						"navigationBarTitleText": "申请成为合伙人"
+					}
+				},
+				{
+					"path": "poster/poster",
+					"style": {
+						"navigationBarTitleText": "我的推荐"
+					}
+				},
+				{
+					"path": "eq/eq",
+					"style": {
+						"navigationBarTitleText": "我的设备"
+					}
+				},
+				{
+					"path": "agentAccound/agentAccound",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "withdrawalList/withdrawalList",
+					"style" : 
+					{
+						"navigationBarTitleText" : "提现列表"
+					}
+				},
+				{
+					"path" : "withdrawalList/memberWithdrawalList",
+					"style" : 
+					{
+						"navigationBarTitleText" : "提现列表"
+					}
+				},
+				{
+					"path": "activeDetail/activeDetail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "recruit/recruit",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		}, {
+			"root": "pagesIndex",
+			"pages": [{
+					"path": "map/map",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "helpCenter/helpCenter",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "deviceDetail/deviceDetail",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "community/community",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "greenBill/greenBill",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "message/inform",
+					"style": {
+						"navigationBarTitleText": "系统消息"
+					}
+				},
+				{
+					"path": "message/orderForm",
+					"style": {
+						// "navigationStyle": "custom",
+						"navigationBarTitleText": "消息"
+					}
+				}, {
+					"path": "greenBill/billDetail/billDetail",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "newsList/newsList",
+					"style": {
+						"navigationBarTitleText": "资讯",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "newsList/newsDetail",
+					"style": {
+						"navigationBarTitleText": "资讯详情",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "comeDoor/comeDoor",
+					"style": {
+						"navigationBarTitleText": "上门回收",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "comeDoorOrder/comeDoorOrder",
+					"style": {
+						"navigationBarTitleText": "上门回收",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "comeDoorOrder/orderSuccess",
+					"style": {
+						"navigationBarTitleText": "上门回收",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "doorOrderDetail/doorOrderDetail",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		}
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"selectedColor": "#4D82D5",
+		"color": "#333333",
+		"custom": true,
+		"list": [
+			// #ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabber/index.png",
+				"selectedIconPath": "static/tabber/index-active.png"
+			},
+			{
+				"pagePath": "pages/index/keFU",
+				"text": "客服",
+				"iconPath": "static/tabber/me.png",
+				"selectedIconPath": "static/tabber/me-active.png"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"text": "我的",
+				"iconPath": "static/tabber/me.png",
+				"selectedIconPath": "static/tabber/me-active.png"
+			}
+			// #endif
+
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue",
+		"^u-(.*)": "@/uni_modules/vk-uview-ui/components/u-$1/u-$1.vue"
+	}
+}

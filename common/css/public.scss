@@ -1,0 +1,432 @@
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	box-sizing: border-box;
+}
+image {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 0;
+	will-change: transform;
+}
+/* 单行文字超出显示省略号 */
+.text-overflow {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 多行文字超出显示省略号 */
+.text-2overflow {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.text-1overflow {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+/* 定位 */
+.pos-r {
+	position: relative;
+}
+
+.pos-a {
+	position: absolute;
+}
+
+
+
+
+/* 对齐 */
+
+.vert-top {
+	vertical-align: top;
+}
+
+.vert-mid {
+	vertical-align: middle;
+}
+
+/*  -- flex弹性布局 -- */
+.display{
+	display: flex;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.basis-xs {
+	flex-basis: 20%;
+}
+
+.basis-sm {
+	flex-basis: 40%;
+}
+
+.basis-df {
+	flex-basis: 50%;
+}
+
+.basis-lg {
+	flex-basis: 60%;
+}
+
+.basis-xl {
+	flex-basis: 80%;
+}
+
+.flex-sub {
+	flex: 1;
+}
+
+.flex-twice {
+	flex: 2;
+}
+
+.flex-treble {
+	flex: 3;
+}
+
+.flex-direction {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-center {
+	display: flex;
+	align-items: center;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.self-start {
+	align-self: flex-start;
+}
+
+.self-center {
+	align-self: flex-center;
+}
+
+.self-end {
+	align-self: flex-end;
+}
+
+.self-stretch {
+	align-self: stretch;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.over-hidden {
+	overflow: hidden;
+}
+.contant {
+	box-sizing: border-box;
+}
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+
+/* 字体大小 */
+.font-weight {
+	font-weight: bold;
+}
+
+.font-s20 { font-size: 20rpx; }
+.font-s24 { font-size: 24rpx; }
+.font-s28 { font-size: 28rpx; }
+.font-s30 { font-size: 30rpx; }
+.font-s32 { font-size: 32rpx; }
+.font-s36 { font-size: 36rpx; }
+.font-s40 { font-size: 40rpx; }
+.font-s60 { font-size: 60rpx; }
+.font-s70 { font-size: 70rpx; }
+
+.calc-w70 { width: calc(100% - 70rpx); }
+.calc-w100 { width: calc(100% - 100rpx); }
+.calc-w130 { width: calc(100% - 130rpx); }
+.calc-w230 { width: calc(100% - 230rpx); }
+
+.vw20 { width: 20rpx; }
+.vw50 { width: 50rpx; }
+.vw130 { width: 130rpx; }
+
+.vh30 { height: 30rpx; }
+.vh80 { height: 80rpx; }
+.vh120 { height: 120rpx; }
+
+.spacing2 { letter-spacing: 2rpx; }
+
+
+/* 字体颜色 */
+.text-theme {
+	color: $theme-color;
+}
+
+.bg-theme{
+	background-color: $theme-color !important;
+}
+
+.borderBottom {
+	border-bottom: 1rpx dashed #d5d5d5;
+}
+
+.border-btm{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.btn-theme {
+	background-image: linear-gradient(45deg, #527ef4 0%, #2071ff 100%),
+		linear-gradient(150deg, #f3a64f 0%, #ed9025 100%);
+}
+.text-666666 {
+	color: #666666;
+}
+.text-c1c1c1 {
+	color: #c1c1c1;
+}
+.text-333333 {
+	color: #333333;
+}
+.text-red {
+	color: #ff0000;
+}
+.color-999 {
+	color: #999999;
+}
+.text-white {
+	color: #ffffff;
+}
+/* 边距 */
+.margin-left-30 { margin-left: 30rpx; }
+.margin-col-20 {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.margin-col-30 {
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+}
+.margin-row-30 {
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.margin-row-20 {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+.margin-row-10 {
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+.margin-30 {
+	margin: 30rpx;
+}
+.margin-top30 {
+	margin-top: 30rpx;
+}
+.margin-top20 {
+	margin-top: 20rpx;
+}
+.margin-top40 {
+	margin-top: 40rpx;
+}
+.margin-top10 {
+	margin-top: 10rpx;
+}
+.margin-bottom10 {
+	margin-bottom: 10rpx;
+}
+.margin-bottom20 {
+	margin-bottom: 20rpx;
+}
+.margin-bottom30 {
+	margin-bottom: 30rpx;
+}
+.margin-bottom35 {
+	margin-bottom: 35rpx;
+}
+.margin0 {
+	margin: 0;
+}
+.padding-top54 {
+	padding-top: 54rpx;
+}
+.padding-top20 {
+	padding-top: 20rpx;
+}
+.padding-top30 {
+	padding-top: 30rpx;
+}
+.padding-col-30 {
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+.padding-bottom20 {
+	padding-bottom: 20rpx;
+}
+.padding-right10 {
+	padding-right: 10rpx;
+}
+.padding-col-10 {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+.padding-col-20 {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+.padding-row-30 {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.padding-row-20 {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+.padding-row-10 {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.padding0 {
+	padding: 0;
+}
+.padding-20 {
+	padding: 20rpx;
+}
+.padding-30 {
+	padding: 30rpx;
+}
+.padding-10 {
+	padding: 10rpx;
+}
+/* 宽高 */
+.width-690rpx {
+	width: 690rpx;
+}
+.width-15 {
+	width: 15%;
+}
+.width-20 {
+	width: 20%;
+}
+.width-80 {
+	width: 80%;
+}
+.width-70 {
+	width: 70%;
+}
+.width-50 {
+	width: 50%;
+}
+.width-40 {
+	width: 40%;
+}
+.width-30 {
+	width: 30%;
+}
+.width-100 {
+	width: 100%;
+}
+.height-100 {
+	height: 100%;
+}
+/* 边框 */
+.border-bottome1e1e1 {
+	border-bottom: 1px solid #e1e1e1;
+}
+.border-tope1e1e1 {
+	border-top: 1rpx solid #e1e1e1;
+}
+.border-e1e1e1 {
+	border: 1rpx solid #e1e1e1;
+}
+
+// ::v-deep .u-tabs {
+// 	background: transparent;
+// }
+
+// ::v-deep .u-tab-bar {
+// 	position: relative;
+// 	background: transparent !important;
+// }
+
+// ::v-deep .u-tab-bar:after {
+// 	content: "";
+// 	position: absolute;
+// 	width: 44rpx !important;
+// 	height: 10rpx !important;
+// 	background: url('/static/tabsIcon.png') no-repeat center !important;
+// 	background-size: 100% 100% !important;
+// }
